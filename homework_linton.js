@@ -24,3 +24,14 @@ else{
 	alert("Your number is " + numberPrompt + " and it is greater than 100!")
 }
 
+//Question 6
+var theName = prompt("What's your name?", theName) //Prompts user to enter their name
+
+function whatName(theName){						//Desclares a function whatName that can be called with the argument theName previously enterd by user
+	return console.log("Your name is", theName)//When function is called with theName the name entered is output to the cons ole
+}
+
+//Question 7
+function uselessFunction(){						//Declares a function with no argument
+	return console.log("This function is nearly pointless.")//Shows an output when the function is called
+}
