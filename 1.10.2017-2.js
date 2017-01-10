@@ -86,3 +86,28 @@ within that function, or optionally you can use clearTimeout(funtion, interval) 
 movment after a certain number of milliseconds. To delay the action of the move you
 use setTimeout(function, milliseconds) to delay the action of the movement by a number
 of milliseconds. Example can be found: http://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_animate_3
+*/
+
+//Activity 
+/* Exercise
+
+Write a pseudo-code algorithm (a list of steps in comments) that checks a form's fields for validity
+
+Break the problem down into as many steps as possible
+
+Begin researching the code behind each of the steps */
+
+/* Assuming the form is already written into the html page, the algorithm would be to 
+create a script that gets the name of the form and the value of the form and assigns
+the value of that form to a variable. Then write a logic statement to test the value of
+the variable ie the value assigned to the form in the HTML and if the value is null
+or it lacks value, the script throws up an alert that that the form needs to be given
+a value ie filled out by the user. It could also check to see if the value of the form 
+is the right type, say if the person had to enter a number instead of a word.
+
+examples and explanations
+http://www.w3schools.com/js/js_validation.asp
+http://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_js
+*/
+
+
