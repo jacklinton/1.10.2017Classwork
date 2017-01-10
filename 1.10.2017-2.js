@@ -29,3 +29,19 @@ butter. Place the side of the slice of bread in your left hand on top of the sli
 in your right such that the part of the slice with jelly is flat against the part of the
 other slice with peanut butter such that all the edges of the two slices coincide with 
 each other. Now the peanut butter and jelly sandwich is complete. */
+
+//How do I make an image slide off the screen after 3 seconds?
+
+// Delay the script by 3 seconds
+
+// Select the image with a jQuery selector,
+
+// Move the image across the screen somehow (positioning? margins?),
+// by adding a certain amount of space every x milliseconds
+
+//How can we break up the above algorithm even further?
+
+/* Open a page with an image. Decide which direction the picture is going to slide off of
+the screen. Decide how long it will take for image to be completely off the screen. Devise 
+code that will accomplish the movement of the image in that direction in the chosen
+amount of time. */
